@@ -1,47 +1,46 @@
 # MockMate-AI 🤖
 
-AI-powered mock interview platform that analyzes resumes,
-generates technical interview questions, records voice answers,
-and evaluates candidates performance.
+AI-powered mock interview system that analyzes resumes, generates interview questions, records answers, and evaluates candidate performance.
 
-🔗 Live Demo
+## 🔗 Live Demo
+
 https://mockmate-ai-3xjowtbsbxtqerxuqljw8w.streamlit.app
 
 ---
 
-## Features
+## 🚀 Features
 
-• Resume Parsing (PDF Upload)
+• Resume Parsing from PDF
 • Automatic Skill Extraction using NLP
-• AI-generated Interview Questions
-• Dynamic Follow-up Questions
+• AI Generated Interview Questions
+• Dynamic Follow-Up Questions
 • Voice Answer Recording
-• AI-based Interview Evaluation
+• Interview Evaluation System
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-Frontend:
-- Streamlit
+Frontend
+• Streamlit
 
-Backend:
-- Python
+Backend
+• Python
 
-AI / NLP:
-- TF-IDF
-- Cosine Similarity
-- NLP Skill Extraction
+AI / NLP
+• TF-IDF
+• Cosine Similarity
+• NLP Skill Extraction
 
-Libraries:
-- Streamlit
-- Scikit-learn
-- PyPDF2
-- Matplotlib
+Libraries
+• Streamlit
+• Scikit-learn
+• PyPDF2
+• Matplotlib
 
 ---
 
-## Project Architecture
+## 📂 Project Structure
 
 MockMate-AI
 │
@@ -52,34 +51,28 @@ MockMate-AI
 │   ├── followup_engine.py
 │   ├── voice_engine.py
 │   └── evaluator.py
-│
+
 ├── ui
 │   └── components.py
-│
+
 ├── app.py
 └── requirements.txt
 
 ---
 
-## How It Works
+## ⚙️ How to Run Locally
 
-1️⃣ Upload Resume  
-2️⃣ AI extracts skills  
-3️⃣ Interview questions generated  
-4️⃣ Candidate answers using voice  
-5️⃣ AI transcribes and evaluates responses  
+git clone https://github.com/shivam-js/MockMate-AI
 
----
+cd MockMate-AI
 
-## Future Improvements
+pip install -r requirements.txt
 
-• GPT-powered question generation  
-• Interview difficulty levels  
-• AI feedback scoring dashboard  
-• Multi-language interviews  
+streamlit run app.py
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 Shivam Prasad
+
