@@ -4,7 +4,7 @@ AI-powered mock interview system that analyzes resumes, generates interview ques
 
 ## 🔗 Live Demo
 
-https://mockmate-ai-3xjowtbsbxtqerxuqljw8w.streamlit.app
+https://mockmate-ai-3xjowtbsbxtqerxuqilw8w.streamlit.app/
 
 ---
 
