@@ -61,28 +61,15 @@ Libraries
 
 MockMate-AI
 │
-├── core/                    # AI logic and backend processing
-│   ├── evaluator.py
-│   ├── followup_engine.py
-│   ├── question_engine.py
-│   ├── resume_parser.py
-│   ├── skill_extractor.py
-│   └── voice_engine.py
-│
-├── ui/                      # UI components and layout
-│   └── components.py
-│
-├── assets/                  # Images used in README
-│   ├── Home.png
-│   ├── ResumeUpload.png
-│   ├── Interview.png
-│   ├── Evaluation.png
-│   └── Result.png
-│
-├── README.md                # Project documentation
-├── .gitignore               # Files ignored by git
-├── requirements.txt         # Python dependencies
-└── app.py                   # Main Streamlit application
+├── core
+├── ui
+├── assets
+├── docs/          # documentation or demo video
+├── tests/         # future testing scripts
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── app.py
 
 ---
 
@@ -101,8 +88,6 @@ Install required dependencies
 pip install -r requirements.txt
 
 Run the application
-
-streamlit run app.py
 
 streamlit run app.py
 
