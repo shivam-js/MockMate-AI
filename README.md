@@ -61,29 +61,48 @@ Libraries
 
 MockMate-AI
 │
-├── core
+├── core/                    # AI logic and backend processing
+│   ├── evaluator.py
+│   ├── followup_engine.py
+│   ├── question_engine.py
 │   ├── resume_parser.py
 │   ├── skill_extractor.py
-│   ├── question_engine.py
-│   ├── followup_engine.py
-│   ├── voice_engine.py
-│   └── evaluator.py
-
-├── ui
+│   └── voice_engine.py
+│
+├── ui/                      # UI components and layout
 │   └── components.py
-
-├── app.py
-└── requirements.txt
+│
+├── assets/                  # Images used in README
+│   ├── Home.png
+│   ├── ResumeUpload.png
+│   ├── Interview.png
+│   ├── Evaluation.png
+│   └── Result.png
+│
+├── README.md                # Project documentation
+├── .gitignore               # Files ignored by git
+├── requirements.txt         # Python dependencies
+└── app.py                   # Main Streamlit application
 
 ---
 
 ## ⚙️ How to Run Locally
 
-git clone https://github.com/shivam-js/MockMate-AI
+Clone the repository
+
+git clone https://github.com/shivam-js/MockMate-AI.git
+
+Navigate to the project folder
 
 cd MockMate-AI
 
+Install required dependencies
+
 pip install -r requirements.txt
+
+Run the application
+
+streamlit run app.py
 
 streamlit run app.py
 
