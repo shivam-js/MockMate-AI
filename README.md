@@ -8,6 +8,23 @@ https://mockmate-ai-3xjowtbsbxtqerxuqljw8w.streamlit.app
 
 ---
 
+## Screenshots
+
+### Home Page
+![Home](assets/Home.png)
+
+### Resume Upload
+![Resume Upload](assets/ResumeUpload.png)
+
+### Interview Page
+![Interview](assets/Interview.png)
+
+### Evaluation Page
+![Evaluation](assets/Evaluation.png)
+
+### Result Page
+![Result](assets/Result.png)
+
 ## 🚀 Features
 
 • Resume Parsing from PDF
