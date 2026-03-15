@@ -1,0 +1,5 @@
+streamlit
+matplotlib
+audio-recorder-streamlit
+pdfplumber
+scikit-learn
